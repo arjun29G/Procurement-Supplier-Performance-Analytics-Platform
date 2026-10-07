@@ -1,0 +1,30 @@
+2026-03-02 21:19:13,760 - INFO - Creating Vendor Summarry Table....
+2026-03-02 21:19:35,173 - INFO -    VendorNumber                   VendorName  ...  TotalExciseTax FreightCost
+0          1128  BROWN-FORMAN CORP            ...       260999.20    68601.68
+1          4425        MARTIGNETTI COMPANIES  ...       294438.66   144929.24
+2         17035  PERNOD RICARD USA            ...       343854.07   123780.22
+3          3960  DIAGEO NORTH AMERICA INC     ...       368242.80   257032.07
+4          3960  DIAGEO NORTH AMERICA INC     ...       249587.83   257032.07
+
+[5 rows x 14 columns]
+2026-03-02 21:19:35,191 - INFO - Cleaning Data....
+2026-03-02 21:19:35,199 - INFO -    VendorNumber                VendorName  ...  StockTurnover SalesToPurchaseRatio
+0          1128         BROWN-FORMAN CORP  ...       0.979108             1.338647
+1          4425     MARTIGNETTI COMPANIES  ...       0.976890             1.266830
+2         17035         PERNOD RICARD USA  ...       0.998575             1.327594
+3          3960  DIAGEO NORTH AMERICA INC  ...       0.993703             1.372493
+4          3960  DIAGEO NORTH AMERICA INC  ...       0.983556             1.396897
+
+[5 rows x 18 columns]
+2026-03-02 21:19:35,216 - INFO - Ingesting Data....
+2026-03-02 21:19:35,610 - INFO - Completed
+2026-10-07 10:39:42,582 - INFO - Building vendor-brand analytical summary
+2026-10-07 10:41:40,006 - INFO - Building vendor-brand analytical summary
+2026-10-07 10:45:33,294 - INFO - Vendor-brand summary reconciles to raw purchase and sales totals
+2026-10-07 10:45:57,531 - INFO - Published analytical tables: {'vendor_sales_summary': 11450, 'inventory_position': 254835, 'purchase_order_summary': 6879, 'vendor_performance_summary': 131, 'Vendor_Purchase_Summary': 11, 'LowTurnoverVendor': 49, 'BrandPerformance': 11415}
+2026-10-07 11:08:58,764 - INFO - Building vendor-brand analytical summary
+2026-10-07 11:12:11,936 - INFO - Vendor-brand summary reconciles to raw purchase and sales totals
+2026-10-07 11:12:24,659 - INFO - Building procurement analytical dimensions and facts
+2026-10-07 11:13:04,744 - INFO - Procurement analytical validation passed: {'observed_lead_time_orders': 5543, 'observed_lead_time_median_days': 10.0, 'observed_lead_time_std_days': 2.1291696542263194, 'supplier_purchase_spend': 321900765.53, 'lead_time_order_count_matches_validated': True, 'lead_time_median_matches_validated': True, 'purchase_spend_matches_validated': True, 'otif_fabricated': False, 'otif_columns_all_null': True}
+2026-10-07 11:13:57,423 - INFO - Wrote Excel extract to D:\Projects\Vendor-Performance-Analysis\exports\Procurement_Supplier_Performance_Extract.xlsx
+2026-10-07 11:13:57,423 - INFO - Published analytical tables: {'vendor_sales_summary': 11450, 'inventory_position': 254835, 'purchase_order_summary': 6879, 'vendor_performance_summary': 131, 'Vendor_Purchase_Summary': 11, 'LowTurnoverVendor': 49, 'BrandPerformance': 11415, 'dim_supplier': 126, 'dim_brand': 10664, 'dim_store': 80, 'dim_date': 388, 'fact_purchase_order': 6879, 'fact_lead_time': 5543, 'supplier_lead_time_summary': 128, 'brand_lead_time_summary': 10664, 'fact_delivery_reconciliation': 128, 'fact_supplier_performance': 131, 'procurement_planning_risk': 131, 'po_cycle_aging_summary': 2, 'fact_procurement_monthly': 75596, 'fact_inventory_summary': 254835}; excel=D:\Projects\Vendor-Performance-Analysis\exports\Procurement_Supplier_Performance_Extract.xlsx
