@@ -1,0 +1,6 @@
+POCycleAgingBucket,POCount,PurchaseSpend,ShareOfObservedPOsPct,AverageLeadTimeDays
+0-7 days,748,5171224.09,13.49449756449576,6.49331550802139
+8-15 days,4795,316729541.44,86.50550243550424,10.469238790406674
+16-30 days,0,0.0,0.0,
+31-60 days,0,0.0,0.0,
+60+ days,0,0.0,0.0,

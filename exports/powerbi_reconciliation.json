@@ -1,0 +1,19 @@
+{
+  "procurement_spend": 321900765.53,
+  "procurement_spend_matches_validated": true,
+  "purchase_quantity": 33584377.0,
+  "purchase_order_key_count": 6879,
+  "supplier_count": 129,
+  "observed_lead_time_orders": 5543,
+  "observed_lead_time_orders_match": true,
+  "median_lead_time_days": 10.0,
+  "median_lead_time_matches": true,
+  "std_lead_time_days": 2.1291696542263194,
+  "std_lead_time_approx_match": true,
+  "invoice_matched_po_count": 4207,
+  "invoice_match_pct": 61.157144933856664,
+  "quantity_alignment_pct": 100.0,
+  "dollar_alignment_pct": 100.0,
+  "otif_fabricated": false,
+  "purchase_transaction_records_validated": 2372474
+}

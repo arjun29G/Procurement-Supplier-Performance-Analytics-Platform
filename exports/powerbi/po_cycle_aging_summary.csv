@@ -1,0 +1,3 @@
+POCycleAgingBucket,POCount,PurchaseSpend,AverageLeadTimeDays,ShareOfObservedPOsPct,AgingBasis
+0-7 days,748,5171224.09,6.49331550802139,13.494497564495761,Observed PO cycle time = LastReceivingDate - PODate (completed receipts only; not open-order aging)
+8-15 days,4795,316729541.44,10.469238790406674,86.50550243550424,Observed PO cycle time = LastReceivingDate - PODate (completed receipts only; not open-order aging)
